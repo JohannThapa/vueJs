@@ -1,6 +1,26 @@
-# VueFirst
+# Vue.js project
 
 This template should help get you started developing with Vue 3 in Vite.
+
+# Creating a Vue Application#
+
+```sh
+ npm init vue@latest
+```
+
+This command will install and execute create-vue, the official Vue project scaffolding tool. You will be presented with prompts for several optional features such as TypeScript and testing support:
+
+```sh
+✔ Project name: … <vureJs>
+✔ Add TypeScript? … No / Yes
+✔ Add JSX Support? … No / Yes
+✔ Add Vue Router for Single Page Application development? … No / Yes
+✔ Add Pinia for state management? … No / Yes
+✔ Add Vitest for Unit testing? … No / Yes
+✔ Add Cypress for both Unit and End-to-End testing? … No / Yes
+✔ Add ESLint for code quality? … No / Yes
+✔ Add Prettier for code formatting? … No / Yes
+```
 
 ## Recommended IDE Setup
 
