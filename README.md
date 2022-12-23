@@ -86,4 +86,27 @@ npm run test:e2e
 ```sh
 npm run lint
 ```
-# vueJs
+# Project structure
+
+    .
+    ├── ...
+    ├── cypress               # Front end testing tool
+    │   ├── e2e                 # E2E Test (End-to-end)
+    │   ├── fixtures            # Json file
+    │   └── support             # Support file (commands etc)
+    ├── public                # Static files
+    ├── src                   # Main source files
+    │   ├── assets               # Other assets file like images, styles etc.
+    │   ├── components           # Vue components
+    │   │    ├── __tests__         # Test files (alternatively `spec` or `tests`)
+    │   │    └── icons             # Icons
+    │   ├── router               # Vue routing
+    │   ├── stores               # Vue stores (State Management)
+    │   └── views                # UI components
+    ├── .eslintrc             # esLint config file  
+    ├── .prettierrc           # Prettier config file 
+    ├── .cypress.config       # Cypress config file     
+    ├── .index.html           # Main file because of SPA 
+    ├── .package.json         # JSON file for configuration of packages.     
+    ├── .tsconfig             # Typescript config file  
+    └── .vite.config          # Config file (build tool)to set up a development environment.
