@@ -11,16 +11,19 @@ nav {
     font-size: 12px;
     padding-top: 1.5rem;
     height: 60px;
-    background: var(--vt-l-nav-shadow);
+    background: var(--vt-c-white);
     display: flex;
     align-items: stretch;
-    box-shadow: 20px 20px 60px #9cc1cf, -20px -20px 60px #d4ffff;
+    /* box-shadow: 20px 20px 60px #9cc1cf, -20px -20px 60px #d4ffff; */
+    box-shadow: var(--vt-shadow);
 }
 
 nav a.router-link-exact-active {
     color: var(--color-text);
-    background: var(--bs-bg-3);
-    box-shadow: var(--box-shadow-bs);
+    background: var(--vt-c-soft-skyblue);
+    box-shadow:inset .2rem .2rem 1rem var(--primary-light), 
+              inset -.2rem -.2rem 1rem var(--primary-dark),
+              var(--vt-shadow);
     border-radius: 40px;
     transition: all 1s ease-out;
 }
@@ -78,3 +81,5 @@ nav a:first-of-type {
         width: 100%;
     }
 }
+
+

@@ -1,3 +1,208 @@
+/* Display properties */
+
+.d-f {
+    display: flex;
+}
+
+.d-g {
+    display: grid;
+}
+
+/* display: inline,
+ the top and bottom margins/paddings are not respected. */
+
+.d-in {
+    display: inline;
+}
+
+/* display: inline-block,
+ the top and bottom margins/paddings are respected
+ Most common use is to display list items horizontally instead of vertically
+ */
+
+.d-ib {
+    display: inline-block;
+}
+
+/* display: block,
+ It add a line-break after the element,(inline-block doesn't)
+  so the element can sit next to other elements. */
+.d-b {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-none {
+    float: none;
+}
+
+/* Flex direction */
+
+.fd-row {
+    flex-direction: row;
+}
+
+.fd-row-rvs {
+    flex-direction: row-reverse;
+}
+
+.fd-col {
+    flex-direction: column;
+}
+
+.fd-col-rvs {
+    flex-direction: column-reverse;
+}
+
+/* Flex flow */
+
+/* flex-flow: <'flex-direction'> */
+
+.ff-row {
+    flex-flow: row;
+}
+
+.ff-row-rvs {
+    flex-flow: row-reverse;
+}
+
+.ff-col {
+    flex-flow: column;
+}
+
+.ff-col-rvs {
+    flex-flow: column-reverse;
+}
+
+/* flex-flow: <'flex-wrap'> */
+.ff-wrap {
+    flex-flow: wrap;
+}
+
+.ff-nowrap {
+    flex-flow: nowrap;
+}
+
+.ff-wrap-rvs {
+    flex-flow: wrap-reverse;
+}
+
+/* flex-flow: <'flex-direction'> and <'flex-wrap'> */
+.ff-row_nowrap {
+    flex-flow: row nowrap;
+}
+
+.ff-row_wrap {
+    flex-flow: row wrap;
+}
+
+.ff-col_wrap {
+    flex-flow: column wrap;
+}
+
+.ff-col_nowrap {
+    flex-flow: column nowrap;
+}
+
+.ff-col-rvs_wrap-rvs {
+    flex-flow: column-reverse wrap-reverse;
+}
+
+.ff-row-rvs_nowrap {
+    flex-flow: row-reverse nowrap;
+}
+
+.ff-row-rvs_wrap {
+    flex-flow: row-reverse wrap;
+}
+
+.ff-col_wrap-rvs {
+    flex-flow: column wrap-reverse;
+}
+
+.ff-col-rvs_wrap {
+    flex-flow: column-reverse wrap;
+}
+
+/* Align items */
+.ai-stretch {
+    align-items: stretch;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ai-baseline {
+    align-items: baseline;
+}
+
+.ai-f-end {
+    align-items: flex-end;
+}
+
+.ai-f-start {
+    align-items: flex-start;
+}
+
+/* Justify content */
+.jc-center {
+    justify-content: center;
+}
+
+.jc-baseline {
+    justify-content: baseline;
+}
+
+.jc-f-end {
+    justify-content: flex-end;
+}
+
+.jc-f-start {
+    justify-content: flex-start;
+}
+
+.jc-left {
+    justify-content: left;
+}
+
+.jc-right {
+    justify-content: right;
+}
+
+.jc-spc-around {
+    justify-content: space-around;
+}
+
+.jc-spc-btwn {
+    justify-content: space-between;
+}
+
+.jc-spc-evnly {
+    justify-content: space-evenly;
+}
+
+
+.jc-start {
+    justify-content: start;
+}
+
+.jc-end {
+    justify-content: end;
+}
+
+/* Flex grow */
 .fg-1 {
     flex-grow: 1;
 }
@@ -32,4 +237,41 @@
 
 .fg-9 {
     flex-grow: 9;
+}
+
+/* Flex shrink */
+.fs-1 {
+    flex-shrink: 1;
+}
+
+.fs-2 {
+    flex-shrink: 2;
+}
+
+.fs-3 {
+    flex-shrink: 3;
+}
+
+.fs-4 {
+    flex-shrink: 4;
+}
+
+.fs-5 {
+    flex-shrink: 5;
+}
+
+.fs-6 {
+    flex-shrink: 6;
+}
+
+.fs-7 {
+    flex-shrink: 7;
+}
+
+.fs-8 {
+    flex-shrink: 8;
+}
+
+.fs-9 {
+    flex-shrink: 9;
 }

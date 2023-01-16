@@ -1,0 +1,8 @@
+.f-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.f-container>.f-item {
+    flex: auto;
+}
